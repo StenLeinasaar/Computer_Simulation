@@ -49,15 +49,14 @@ public class ALU {
     */
     public ALU() {
         // PROGRAM 1: Student must complete this method
-    	control = 15;
-    	zeroFlag = false;
-    	overflowFlag = false;
-    	for(int i = 0; i < INT_LENGTH; i++) {
-    	        inputA[i] = rand.nextBoolean();
-    	        inputA[i] = rand.nextBoolean();
-    	        output[i] = rand.nextBoolean();
-    	        
-    	    }	
+        control = 15;
+        zeroFlag = false;
+        overflowFlag = false;
+        for(int i = 0; i < INT_LENGTH; i++) {
+                inputA[i] = rand.nextBoolean();
+                inputA[i] = rand.nextBoolean();
+                output[i] = rand.nextBoolean();
+        }	
     }
 
     /**

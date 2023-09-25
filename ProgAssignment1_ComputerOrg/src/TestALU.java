@@ -16,7 +16,6 @@ public class TestALU {
         // Variables for binary numbers
         boolean[] binA = {false,true,true,true,false,true,true,true,false,false,false,true,false,true,false,false,false,true,true,false,false,false,true,false,false,false,false,false,false,false,true,false};
         boolean[] binB = {false,false,false,true,false,true,false,false,true,true,true,false,false,true,true,true,true,false,false,false,false,true,false,true,false,true,false,false,true,true,true,false};
-              
         //STUDENT MUST ADD: add your own binC such that adding A and C does not cause a signed overflow, subtracting A from C causes a signed overflow
         boolean[] binC = {true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true};
 
@@ -39,9 +38,6 @@ public class TestALU {
         boolean[] subAB = {false,true,true,false,false,false,true,true,true,false,false,false,false,false,true,false,false,false,true,false,false,true,false,true,true,false,true,true,false,false,true,true};
         // correct result of binC - binA, carry out, signed overflow.
         boolean[] subCA = {true, false, false, false, true, false,false,false,true,true,true,false,true,false,true,true,true,false,false,true,true,true,false,true,true,true,true,true,true,true,false,true};
-     
-        
-
         // set binZeros to all false
         // set bin1 to all false (then change index 0 next)
         // set binOnes to all true
